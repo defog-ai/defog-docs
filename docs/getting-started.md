@@ -14,6 +14,11 @@ Let's discover **Defog in less than 5 minutes**.
 
 If you do not have `pip` installed on your computer, you can install it [here](https://pip.pypa.io/en/stable/installation/)
 
+Here's a 1-minute demo of what the process looks like
+
+https://github.com/defog-ai/defog-docs/assets/113582788/4fdad08c-e3fe-49bc-af1b-a975f875c95d
+
+
 ## Initializing Defog
 
 Get started by install our [CLI interface](https://github.com/defog-ai/defog-python).
