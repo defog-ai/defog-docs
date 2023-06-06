@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/defog-ai/defog-docs/tree/main/docs/',
+            'https://github.com/defog-ai/defog-docs/blob/main/docs/',
         },
         blog: false,
         theme: {
