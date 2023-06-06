@@ -1,13 +1,16 @@
 ---
 sidebar_position: 1
 ---
+import ReactPlayer from 'react-player'
 
 # Getting Started
 
-Let's discover **Defog in less than 5 minutes**. [Here's a 1-minute demo](https://github.com/defog-ai/defog-docs/assets/113582788/4fdad08c-e3fe-49bc-af1b-a975f875c95d) of the setup.
+Let's discover **Defog in less than 5 minutes**. Here's a 1-minute demo of the setup
+
+<ReactPlayer playing controls url='https://github.com/defog-ai/defog-docs/assets/113582788/4fdad08c-e3fe-49bc-af1b-a975f875c95d' />
 
 ## What you'll need
-
+- A Defog API Key. Sign up [here](https://defog.ai/signup/) for a free API key
 - Python 3
 - Pip
 - Drivers for your database
