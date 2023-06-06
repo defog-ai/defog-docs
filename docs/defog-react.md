@@ -26,6 +26,8 @@ const App = () => {
             buttonText={"Ask Defog"}
             debugMode={true}
             sqlOnly={false}
+            darkMode={false}
+            loadingMessage={"Generating a query for your question..."}
             // additionalParams={{ "test": "test" }}
             // additionalHeaders={{ "test": "test" }}
         />
@@ -63,3 +65,9 @@ This can be a dict of any additional parameters you want to send along with your
 
 ### additionalHeaders
 This can be any additional headers that you want to send along with your post request
+
+### darkMode
+This can be `true` or `false`, depending on whether you want a dark mode
+
+### loadingMessage
+This is the message that comes up while a user is waiting for the results to appear
