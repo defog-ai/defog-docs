@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started
 
-Let's discover **Defog in less than 5 minutes**.
+Let's discover **Defog in less than 5 minutes**. [Here's a 1-minute demo](https://github.com/defog-ai/defog-docs/assets/113582788/4fdad08c-e3fe-49bc-af1b-a975f875c95d) of the setup.
 
 ## What you'll need
 
@@ -13,10 +13,6 @@ Let's discover **Defog in less than 5 minutes**.
 - Drivers for your database
 
 If you do not have `pip` installed on your computer, you can install it [here](https://pip.pypa.io/en/stable/installation/)
-
-Here's a 1-minute demo of what the process looks like
-
-https://github.com/defog-ai/defog-docs/assets/113582788/4fdad08c-e3fe-49bc-af1b-a975f875c95d
 
 
 ## Initializing Defog
