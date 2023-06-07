@@ -100,11 +100,12 @@ defog.run_query(
 ```
 
 ## A minimal webserver running Defog
-You can spin up a minimal webserver for testing Defog using Flask.
+You can spin up a minimal webserver for testing Defog using Flask. You can this in a file called `app.py`, install flask and flask-cors with `pip install Flask` and `pip install -U flask-cors`, and just run it with `python app.py`
 
 ```python
 from flask import Flask, request, jsonify
 from flask.json import JSONEncoder
+from flask_cors import CORS, cross_origin
 from defog import Defog
 import decimal
 
@@ -119,8 +120,11 @@ defog = Defog()
 
 app = Flask(__name__)
 app.json_provider_class = JsonEncoder
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/", methods=['POST'])
+@cross_origin()
 def test_defog():
     data = request.json
     question = data.get('question')
@@ -136,7 +140,7 @@ While this is running, you can test that it works by making a POST request to lo
 
 ```python
 import requests
-r = requests.post("http://localhost:5000/", json={"question": "how many users to we have?"})
+r = requests.post("http://localhost:5000/", json={"question": "how many users do we have?"})
 r.json()
 ```
 
