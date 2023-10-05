@@ -99,6 +99,15 @@ defog.run_query(
 }
 ```
 
+### Update a glossary of terms for better instruction following
+You can use the update_glossary function in Defog to fine-tune instructions that the model can follow while generating queries. An example of this is below:
+
+```python
+defog = Defog()
+defog.update_glossary("""- If a user asks for data in this week, return data for the current ISO week and not for the last 7 days.
+- CAC refers to the Customer Acquisition cost, and can be compute by ...""")
+```
+
 ## A minimal webserver running Defog
 You can spin up a minimal webserver for testing Defog using Flask. You can this in a file called `app.py`, install flask and flask-cors with `pip install Flask` and `pip install -U flask-cors`, and just run it with `python app.py`
 
