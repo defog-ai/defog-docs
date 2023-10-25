@@ -100,7 +100,9 @@ defog.run_query(
 ```
 
 ### Update a glossary of terms for better instruction following
-You can use the update_glossary function in Defog to fine-tune instructions that the model can follow while generating queries. An example of this is below:
+You can use the update_glossary function in Defog to fine-tune instructions that the model can follow while generating queries. Note that this function **overwrites** the existing glossary, and does not append to it.
+
+An example of this is below:
 
 ```python
 defog = Defog()
