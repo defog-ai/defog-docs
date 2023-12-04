@@ -25,8 +25,7 @@ from defog import Defog
 defog = Defog(
     api_key = "YOUR_DEFOG_API_KEY",
     db_type = "YOUR_DB_TYPE",
-    # must be one of postgres, redshift, mysql, bigquery,
-    # mongo, or snowflake
+    # must be one of postgres, redshift, mysql, snowflake, or bigquery
     db_creds = YOUR_DB_CREDS
     # must be a dict in these formats, depending
     # on your database type
