@@ -25,9 +25,9 @@ Get started by install our [CLI interface](https://github.com/defog-ai/defog-pyt
 To do this, just run the following commands on your terminal
 
 ```bash
-pip install --upgrade defog
-# If you're not using Postgres or Redshift, then replace the above with
-# pip install --upgrade 'defog[snowflake]' or pip install --upgrade 'defog[mysql]' or pip install --upgrade 'defog[bigquery]'
+pip install --upgrade 'defog[snowflake]'
+# If you're not using Snowflake, then you can replace the above with
+# pip install --upgrade 'defog[postgres]' or pip install --upgrade 'defog[mysql]' or pip install --upgrade 'defog[bigquery]'
 defog init
 ```
 
